@@ -1,0 +1,88 @@
+/* src/components/DayNight.css */
+
+.daynight-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 5rem auto; /* Adjusted margin to create space below */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    position: relative; /* Added relative positioning for absolute dropdown */
+  }
+  
+  .daynight-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .days-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .day-item {
+    margin-bottom: 20px;
+  }
+  
+  .day-header {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .day-header:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .additional-details {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    padding: 15px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    max-height: 0; /* Collapsed height */
+    overflow: hidden;
+  }
+  
+  .day-item.open .additional-details {
+    display: block; /* Show when .open class is applied */
+    max-height: 300px; /* Expanded height, adjust as needed */
+    padding: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .daynight-title {
+      font-size: 1.5rem;
+    }
+  
+    .day-header {
+      padding: 10px;
+    }
+  
+    .additional-details {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .daynight-container {
+      padding: 10px;
+    }
+  
+    .day-header {
+      padding: 8px;
+    }
+  
+    .additional-details {
+      padding: 8px;
+    }
+  }
+  

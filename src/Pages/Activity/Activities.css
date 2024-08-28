@@ -1,0 +1,70 @@
+.Activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Activity {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  
+  width: 100%;
+  /* Add a max-width to ensure it looks good on larger screens */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.Activity h2 {
+  color: #1b4965;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.Activity p {
+  color: #333333;
+  line-height: 1.6;
+}
+
+.Activity h3 {
+  color: #2f8fce;
+  font-size: 1.3rem;
+  margin: 15px 0 10px;
+}
+
+.Activity ul {
+  margin-bottom: 15px;
+  padding-left: 20px; /* Add padding to the left to indent list items */
+  padding-right:20px;
+}
+
+.Activity li {
+  color: #333333;
+  margin-bottom: 8px;
+  list-style: none; /* Remove default list style */
+  display: flex;
+  align-items: center;
+}
+
+.Activity li img {
+  width: 150px; /* Set a fixed size for images */
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 10px; /* Add space between image and text */
+}
+
+@media (max-width: 600px) {
+  .Activities {
+    justify-content: flex-start;
+  }
+
+  .Activity {
+    width: calc(50% - 20px); /* Two activities per row on medium screens */
+  }
+}
+
+@media (max-width: 1024px) {
+}

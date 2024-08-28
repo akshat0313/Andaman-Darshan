@@ -1,0 +1,102 @@
+/* Ferry.css */
+
+:root {
+  --primary-blue: #1B4965;
+  --secondary-blue: #2F8FCE;
+  --accent-blue: #36D1DC;
+  --light-blue: #A0E8F0;
+  --dark-blue: #0A2E36;
+  --neutral-background: #F5F5F5;
+  --text-color: #333333;
+}
+
+body {
+  background-color: var(--neutral-background);
+  color: var(--text-color);
+}
+
+.ferry-details {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ferry-details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.ferry-details h1, .ferry-details h2 {
+  color: var(--primary-blue);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ferry-details h1 {
+  font-size: 2.5em;
+}
+
+.ferry-details h2 {
+  font-size: 2em;
+  margin-top: 40px;
+}
+
+.ferry-details p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  font-size: 1.1em;
+}
+
+.ferry-timetable, .ferry-fares {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.Route{
+  color:var(--dark-blue);
+  margin:2rem;
+  font-size: 1.2em;
+}
+.ferry-timetable th, .ferry-timetable td, .ferry-fares th, .ferry-fares td {
+  border: 1px solid var(--secondary-blue);
+  padding: 12px;
+  text-align: left;
+}
+
+.ferry-timetable th, .ferry-fares th {
+  background-color: var(--light-blue);
+  font-size: 1.2em;
+  color: var(--dark-blue);
+}
+
+.ferry-timetable td, .ferry-fares td {
+  background-color: var(--neutral-background);
+}
+
+.ferry-fares h3 {
+  margin-top: 20px;
+  color: var(--secondary-blue);
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .ferry-details {
+    padding: 10px;
+  }
+
+  .ferry-details h1 {
+    font-size: 2em;
+  }
+
+  .ferry-details h2 {
+    font-size: 1.5em;
+  }
+
+  .ferry-timetable th, .ferry-timetable td, 
+  .ferry-fares th, .ferry-fares td {
+    padding: 8px;
+  }
+}

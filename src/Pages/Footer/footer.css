@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Sevillana&family=Moon+Dance&family=McLaren&family=Montserrat&family=Oswald:wght@300&display=swap');
+
+.totalf {
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    z-index: -1;
+    /* background-color:rgba(104, 32, 32, 0.423); */
+    background-color: rgba(197, 197, 197, 0.77);
+    /* rgba(197, 197, 197, 0.767)  */
+    /* background-color: #e2e8f0; */
+    /*background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");*/
+
+}
+
+.footB {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: rgb(15, 15, 15);
+}
+@media (max-width: 700px){
+    .footB{
+            flex-direction: column;
+            align-items: center;
+            padding-left: 10vw;
+            padding-right: 10vw;
+    }
+    /* .footB-b{
+        min-width: 100vw !important;
+        padding-left:5vw ;
+        padding-right:5vw ;
+    } */
+    .divslash{
+        display: none;
+    }
+
+}
+.footB-b{
+    display: flex;
+    /* justify-content: center; */
+}
+.footT {
+    display: flex;
+}
+
+.leftf {
+    width: 30vw;
+    height: 50vh;
+}
+
+.logF {
+    height: 15vh;
+}
+
+.middle,
+.rightf,
+.rightr {
+    width: 21vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #030303;
+}
+
+.leftf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px red;
+}
+
+.logof {
+    font-size: 6vw;
+    font-family: Moon Dance;
+}
+
+.leftf-b {
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightr ul {
+    list-style-type: none;
+    color: #080808;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle ul {
+    list-style-type: none;
+    color: #0a0a0a;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightf ul {
+    list-style-type: none;
+    color: #1b1a1a;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+    padding-top: 1vh;
+}
+
+span {
+    font-size: larger;
+    font-family: Poppins;
+    font-weight: 500;
+    color: rgb(219, 19, 19);
+    text-decoration: underline;
+    padding-bottom: 5vh;
+}
+
+.ico {
+    font-size: 2vw;
+}
+
+.ico:hover {
+    color: rgb(211, 29, 29);
+}
+
+@media (max-width: 900px) {
+    .footT {
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+
+    }
+
+    .ico {
+        font-size: 5vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
+
+    .leftf,
+    .middle,
+    .rightf,
+    .rightr {
+        padding-top: 5vh;
+        width: 100vw;
+        display: flex;
+        height: max-content;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 5vh;
+    }
+
+    a:hover {
+        color: red !important;
+    }
+
+    .footB {
+        height: fit-content !important;
+    }
+
+    .totalf {
+        padding-left: 0vw;
+    }
+}
+
+.react-responsive-modal-modal {
+    background-color: #424242;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png") !important;
+    /* background-color: #b5b5b5 !important; */
+    /* background-color: #424242 !important; */
+    /* background-image: url(https://www.transparenttextures.com/patterns/skulls.png) !important; */
+    /* background-image: url("https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60") !important;
+    background-size: contain; */
+
+}
+
+.react-responsive-modal-overlay {
+    background: rgb(0 0 0 / 87%) !important;
+    backdrop-filter: 'auto';
+    background-blend-mode: luminosity;
+}
+
+.foot-loc:hover {
+    color: maroon;
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    .react-responsive-modal-modal {
+        display: flex;
+    }
+}
+

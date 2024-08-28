@@ -1,0 +1,265 @@
+/* Welcome Section Styles */
+
+.welcome {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-image:url('../../Assets/3.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.welcome-text {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.welcome-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.amenities  h2{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.welcome-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.view-more-button {
+  background-color: #2F8FCE;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-more-button:hover {
+  background-color: #501DBA;
+}
+
+/* Responsive Welcome Section */
+@media (max-width: 768px) {
+  .welcome-text h1 {
+    font-size: 2rem;
+  }
+  .welcome-text p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .welcome-text h1 {
+    font-size: 1.5rem;
+  }
+  .welcome-text p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive Styles for Carousel */
+.carousel {
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative; /* Ensure relative positioning for absolute text */
+}
+
+.carousel .carousel-item {
+  position: relative; /* Ensure relative positioning for absolute text */
+  height: 90vh; /* Increase this value to adjust the height */
+}
+
+.carousel .carousel-item img {
+  object-fit: cover;
+  height: 100%; /* Ensure the image covers the increased height */
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Text Overlay Styling */
+.Carousel-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 80%;
+  transition: opacity 0.5s;
+}
+
+.Carousel-caption h3 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.Carousel-caption p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color:white;
+}
+
+/* Adjust text overlay position and size for smaller screens */
+@media (max-width: 768px) {
+  .Carousel-caption {
+    bottom: 5%;
+    max-width: 90%;
+  }
+  .Carousel-caption h3 {
+    font-size: 2em;
+  }
+  .Carousel-caption p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 576px) {
+  .Carousel-caption {
+    bottom: 3%;
+    max-width: 100%;
+  }
+  .Carousel-caption h3 {
+    font-size: 1.5em;
+  }
+  .Carousel-caption p {
+    font-size: 0.9em;
+  }
+}
+
+/* Activity Section */
+.activity-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.activity-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.activity {
+  background-color: #A0E8F0;
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+  text-align: center;
+}
+
+.activity img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.activity h3 {
+  font-size: 1.8em;
+  margin: 10px 0;
+  color: #0A2E36;
+}
+
+.activity p {
+  font-size: 1em;
+  padding: 0 10px 20px;
+}
+
+/* Responsive Activity Section */
+@media (max-width: 768px) {
+  .activities {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Contact Details Section */
+.ContactDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color:#a0e8f086;
+}
+
+.contact-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.contact-box h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.contact-button {
+  background-color: #2F8FCE;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-button:hover {
+  background-color: #1B4965;
+}
+
+/* Responsive Contact Details Section */
+@media (max-width: 768px) {
+  .contact-box {
+    padding: 15px;
+  }
+  .contact-box h2 {
+    font-size: 2em;
+  }
+  .contact-box p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-box h2 {
+    font-size: 1.5em;
+  }
+  .contact-box p {
+    font-size: 0.9em;
+  }
+}

@@ -1,0 +1,31 @@
+.recognition-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+  }
+  
+  .brand-logo {
+    max-width: 150px; /* Adjust the size as needed */
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+  }
+  
+  .brand-logo:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .brand-logo {
+      max-width: 80px; /* Smaller size for mobile devices */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .brand-logo {
+      max-width: 60px; /* Even smaller size for very small devices */
+    }
+  }
+  

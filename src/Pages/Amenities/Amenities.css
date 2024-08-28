@@ -1,0 +1,134 @@
+.Ame-total {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+.Ame-left {
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: #1B4965;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.Ame-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.Ame-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.Ame-int {
+    width: calc(33.33% - 40px);
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.Ame-text {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    .Ame-int {
+        width: calc(50% - 40px);
+        font-size: 1.2rem;
+    }
+
+    .Ame-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .Ame-total {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .Ame-left {
+        position: absolute;
+        transform: none;
+        width: 80%;
+
+        height: auto;
+        padding: 10px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .Ame-int {
+        width: calc(50% - 20px);
+        margin: 10px;
+        font-size: 1rem;
+    }
+
+    .Ame-right {
+        position: static;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .Ame-img {
+        height: 100%;
+        filter: brightness(50%);
+    }
+
+    .Ame-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .Ame-left {
+        position: absolute;
+        transform: none;
+        width: 80%;
+       display: flex;
+       flex-direction: row;
+       
+      
+        padding: 10px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .Ame-int {
+       
+        margin: 10px 0;
+        font-size: 0.9rem;
+    }
+
+    .Ame-text {
+        font-size: 0.7rem;
+    }
+}
