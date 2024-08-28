@@ -23,9 +23,9 @@ import { IoIosCall, IoIosMail } from "react-icons/io";
 import Fab from "./FAB";
 
 const actions = [
-  { label: "Call us", icon: <IoIosCall />, onClick1:console.log("call"),label2:"tel:8777765809" },
-  { label: "Mail us", icon: <IoIosMail />, onClick1:console.log("mail"),label2:"https://mail.google.com/mail/u/0/?fs=1&to=info.47bitapods@gmail.com&tf=cm"},
-  { label: "Whatsapp Us", icon: <FaWhatsapp />, onClick1: console.log("whatsapp"),label2:"https://wa.me/+918981464738" },
+  { label: "Call us", icon: <IoIosCall />, onClick1:console.log("call"),label2:"tel:9734476497" },
+  { label: "Mail us", icon: <IoIosMail />, onClick1:console.log("mail"),label2:"https://mail.google.com/mail/u/0/?fs=1&to=andamantdarshan@gmail.com&tf=cm"},
+  { label: "Whatsapp Us", icon: <FaWhatsapp />, onClick1: console.log("whatsapp"),label2:"https://wa.me/+919734476497" },
   /*{ label: "Join our Telegram group", icon: <FaTelegram />, onClick1: console.log("telegram"),label2:"https://mail.google.com/mail/u/0/?fs=1&to=info.47bitapods@gmail.com&tf=cm" }*/
 ];
 

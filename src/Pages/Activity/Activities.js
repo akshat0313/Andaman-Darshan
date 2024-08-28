@@ -119,10 +119,12 @@ const activitiesData = [
   topSpots: [
     {
       location: 'Port Blair',
+      image: PB,
       description: 'The capital city offers excellent sea karting opportunities with routes that provide breathtaking views of the coastline and nearby islands.'
     },
     {
       location: 'Havelock Island',
+      image: Havelock,
       description: 'Enjoy the thrill of sea karting around the picturesque beaches of Havelock Island, with its crystal-clear waters and vibrant marine life.'
     }
   ],
@@ -522,15 +524,35 @@ const Activities = () => {
         <p>{activity.description}</p>
         
         <h3>Top Spots</h3>
-        <ul>
-          {activity.topSpots.map((spot, i) => (
-            <li key={i} style={{display:"flex",flexDirection:"row",justifyContent:"space-between",marginBottom:"2rem"}}>
-              <p style={{paddingRight:"2rem"}}> {spot.location}: {spot.description}</p>
-              <img src={spot.image} alt={spot.location} />
-              
-            </li>
-          ))}
-        </ul>
+        <ul style={{ display: "flex", flexWrap: "wrap", gap: "2rem" }}>
+  {activity.topSpots.map((spot, i) => (
+    <li
+      key={i}
+      style={{
+        flex: "0 0 calc(50% - 2rem)", // Each li takes 50% width minus the gap
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        // marginBottom: "2rem",
+      }}
+    >
+      <img
+        src={spot.image}
+        alt={spot.location}
+        style={{
+          width: "100%", // Set a fixed width
+          height: "70%", // Set a fixed height
+          objectFit: "cover", // Ensures the image covers the box while maintaining aspect ratio
+          borderRadius: "10px",
+        }}
+      />
+      <p style={{ width: "100%", textAlign: "center", marginTop: "1rem" }}>
+        {spot.location}: {spot.description}
+      </p>
+    </li>
+  ))}
+</ul>
+
         
         <h3>What to Expect</h3>
         <ul>

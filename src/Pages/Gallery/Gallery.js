@@ -10,12 +10,12 @@ import attraction6 from "./attraction6.jpg";
 
 const Gallery = () => {
   const attractions = [
-    { url: attraction1, name: 'Attraction 1' },
-    { url: attraction2, name: 'Attraction 2' },
-    { url: attraction3, name: 'Attraction 3' },
-    { url: attraction4, name: 'Attraction 4' },
-    { url: attraction5, name: 'Attraction 5' },
-    { url: attraction6, name: 'Attraction 6' },
+    { url: attraction1, name: 'Trenquil' },
+    { url: attraction2, name: 'Neil Island' },
+    { url: attraction3, name: 'Viper Island' },
+    { url: attraction4, name: 'Marine Park' },
+    { url: attraction5, name: 'Havelock' },
+    { url: attraction6, name: 'Cellular Jail' },
     // Add more Cloudinary image URLs and names here
   ];
 
@@ -29,7 +29,7 @@ const Gallery = () => {
               <ModalImage
                 small={attraction.url}
                 large={attraction.url}
-                alt={`Attraction ${index + 1}`}
+                alt={attraction.name}
                 className="gallery-image"
               />
               <div className="overlay">

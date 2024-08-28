@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../Assets/logo.jpg';
 import './FooterNew.css';
 
 function FooterNew() {
@@ -61,17 +62,18 @@ function FooterNew() {
 
         <div className="footer-links">
           <div className="footer-column">
-            <h4 className="footer-label">Quick Links</h4>
-            <Link exact to="/" className="footer-link">Home</Link>
-            <Link to="/about" className="footer-link">About</Link>
-            <Link to="/testimonial" className="footer-link">testimonial</Link>
-            <Link to="/contact" className="footer-link">Contact Us</Link>
+          <div className="logo">
+              <img className='logo-img' src={logo} alt="Logo" />
+            <div className="Nav-Name">Andman Darshan</div>          
+          </div>
+            <div>Discover the breathtaking beauty of the Andaman & Nicobar Islands, a tropical paradise offering a perfect blend of nature, adventure, and culture. Plan your journey to explore pristine beaches, coral reefs, and the rich history of these magnificent islands</div>
           </div>
           <div className="footer-column">
-            <h4 className="footer-label">Company</h4>
-            <a href="#company1" className="footer-link">About Us</a>
-            <a href="/agreement" className="footer-link">User Agreements</a>
-            <a href="/privacy-policy" className="footer-link">Privacy Policy</a>
+            <h4 className="footer-label">Contact Information</h4>
+            <div>Office Address:</div>
+            <div>Near Dollygaunge Post Office, Dollygaunge</div>
+            <div>Port Blair, S Andaman, India</div>
+            <div>Pin - 744103</div>
           </div>
         </div>
       </div>

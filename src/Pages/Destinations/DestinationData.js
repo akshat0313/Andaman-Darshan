@@ -218,8 +218,8 @@ const destinations = {
     ]
       },
       place4: {
-        title: Baratang,
-        heroImageUrl: "https://example.com/path/to/hero-baratang.jpg",
+        title: "Baratang",
+        heroImageUrl: BaratangBaludera,
         description: "Welcome to Baratang Island, a hidden gem in the Andaman and Nicobar archipelago. Known for its unique geological formations, dense mangrove forests, and rich biodiversity, Baratang Island offers an adventure unlike any other. Whether you are a nature enthusiast, an adventure seeker, or simply looking to explore something new, Baratang Island has something for everyone. Join us as we uncover the top attractions that make Baratang Island a must-visit destination.",
         sections: [
             {

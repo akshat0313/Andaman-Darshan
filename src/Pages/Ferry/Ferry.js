@@ -8,13 +8,20 @@ import fifth from '../../Assets/9.jpg';
 import FooterNew from '../Footer/FooterNew';
 import HeroAbout from '../Hero/Hero';
 import Navbar from '../Navbar/Navbar';
+import nautika from './nautika.jpg';
+import go1 from './go1.jpg';
+import go2 from './go2.jpg';
+import gold from './gold.jpg';
+import gov from './gov.jpg';
+import majestic from './majestic.jpg';
+import makruzz from './makruzz.jpg';
 import './Ferry.css';
 const ferryData = {
   nautika: {
     name: "Nautika",
     description: "Nautika is a high-speed ferry offering comfortable travel.",
     Heroimg: first,
-    image: "/images/nautika.jpg",
+    image: nautika,
     timings: [
       { from: "Port Blair", to: "Havelock", departure: "10:00 AM", arrival: "12:00 PM" },
       { from: "Havelock", to: "Port Blair", departure: "3:00 PM", arrival: "5:00 PM" },
@@ -24,7 +31,7 @@ const ferryData = {
     name: "Green Ocean 2",
     description: "Green Ocean is the largest and the only all weather private ferry operating between Port Blair and Havelock Island. This mighty vessel offers the most comfortable and enjoyable onboard experience. With unrestricted space onboard the guest enjoy the scenic beauty of the islands as it unfolds on the voyage to Havelock Island. Onboard the ship, guest can stroll to its unique open deck cafeteria with best music and dance arena to relax and unwind in open air.",
     Heroimg: first,
-    image: "/images/green-ocean-2.jpg",
+    image: go2,
     timings: [
       { from: "Port Blair", to: "Havelock Island", departure: "06:45 AM", arrival: "09:45 AM", duration: "03 Hours" },
       { from: "Havelock Island", to: "Port Blair", departure: "03:00 PM", arrival: "05:30 PM", duration: "02 Hours 30 Minutes" },
@@ -46,7 +53,7 @@ const ferryData = {
     name: "M V Makruzz",
     description: "M.V. Makruzz is a Private high-speed Catamaran Passenger Ferry. Catamaran is a twin hull vessel and the advantage is that it offers high speed, better stability and more space. The craft is owned by MAK LOGISTICS Pvt. Ltd. The vessel has 2 decks with passenger capacity of 280. It presents three classes for its guests with 208 seats in Premium, 64 seats in Deluxe and 8 seats in Royal. For the comfort of the passengers, the vessel is fully air-conditioned.",
     Heroimg: scnd,
-    image: "/images/mv-makruzz.jpg",
+    image: makruzz,
     timings: [
       { from: "Port Blair", to: "Havelock Island", departure: "08:00 AM", arrival: "09:30 AM", duration: "01 Hour 30 Minutes" },
       { from: "Port Blair", to: "Havelock Island", departure: "01:45 PM", arrival: "03:15 PM", duration: "01 Hour 30 Minutes" },
@@ -89,7 +96,7 @@ const ferryData = {
     name: "Makruzz Gold",
     description: "Makruzz Gold is a Private high-speed Catamaran Passenger Ferry. Catamaran is a twin hull vessel and the advantage is that it offers high speed, better stability and more space. The craft is owned by MAK LOGISTICS Pvt. Ltd. The state-of-the-art craft services between Port Blair and Havelock Island.",
     Heroimg: third,
-    image: "/images/makruzz-gold.jpg",
+    image: gold,
     timings: [
       { from: "Port Blair", to: "Havelock Island", departure: "08:45 AM", arrival: "10:30 AM", duration: "01 Hour 45 Minutes" },
       { from: "Havelock Island", to: "Port Blair", departure: "11:30 AM", arrival: "01:15 PM", duration: "01 Hour 45 Minutes" },
@@ -115,7 +122,7 @@ const ferryData = {
     name: "ITT Majestic",
     description: "ITT Majestic has launched just recently in 2019. This cruise is fast and offers a rich experience to travelers going from one island to the other. ITT Majestic operates from Port Blair to Havelock Island. This cruise does not allow you to come to the deck and see the sea. The cruise is 33 meters long and has 200 seating.",
     Heroimg: fourth,
-    image: "/images/itt-majestic.jpg",
+    image: majestic,
     timings: [
       { from: "Havelock (Swaraj Dweep)", to: "Port Blair", departure: "10:15 AM", arrival: "12:30 PM", duration: "2 Hours 15 Minutes" },
       { from: "Havelock (Swaraj Dweep)", to: "Port Blair", departure: "02:45 PM", arrival: "04:00 PM", duration: "1 Hour 15 Minutes" },
@@ -145,7 +152,7 @@ const ferryData = {
     name: "Green Ocean 1",
     description: "Green Ocean is the largest and the only all weather private ferry operating between Port Blair and Havelock Island. This mighty vessel offers the most comfortable and enjoyable onboard experience. With unrestricted space onboard the guest enjoy the scenic beauty of the islands as it unfolds on the voyage to Havelock Island. Onboard the ship, guest can stroll to its unique open deck cafeteria with best music and dance arena to relax and unwind in open air.",
     Heroimg: fifth,
-    image: "/images/green-ocean-1.jpg",
+    image: go1,
     timings: [
       { from: "Port Blair", to: "Havelock Island", departure: "06:45 AM", arrival: "09:45 AM", duration: "03 Hours" },
       { from: "Havelock Island", to: "Port Blair", departure: "03:00 PM", arrival: "05:30 PM", duration: "02 Hours 30 Minutes" },
@@ -167,7 +174,7 @@ const ferryData = {
     name: "Government Ferries",
     description: "Government Ferries in Andaman Islands is the lifeline of the people living around Port Blair. The Directorate of Shipping Services, A & N Administration operates regular ferry services in the inter-island sectors connecting all populated islands and tourist places. These ferries cater to thousands of passengers (Islands & Tourists) daily to the remotest of Islands and hot tourist destinations. Though the seating in govt. ferries is not as good as private cruises, however, the view from the deck is just amazing. You may get the chance to go to the captain's deck. Govt. ferries have been the most punctual when it comes to timing and services.",
     Heroimg: scnd,
-    image: "/images/government-ferries.jpg",
+    image: gov,
     timings: [
       { from: "Port Blair", to: "Havelock Island", departure: "06:15 AM", arrival: "09:35 AM", duration: "03 Hours 20 Minutes", operates: "Monday, Wednesday, Saturday" },
       { from: "Port Blair", to: "Havelock Island", departure: "06:20 AM", arrival: "08:30 AM", duration: "02 Hours 10 Minutes", operates: "Daily" },
