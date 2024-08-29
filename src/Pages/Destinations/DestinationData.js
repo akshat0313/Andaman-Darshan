@@ -324,7 +324,7 @@ const destinations = {
     },
     place6: {
         title: Mayabunder,
-        heroImageUrl: "https://example.com/path/to/hero-mayabunder.jpg",
+        heroImageUrl: Mayabunder,
         description: "Welcome to Mayabunder, a serene town nestled in the northern part of the Middle Andaman Islands. Known for its stunning beaches, rich history, and vibrant marine life, Mayabunder is an ideal destination for travelers seeking tranquility and adventure. Whether you are exploring its historical sites or enjoying its natural beauty, Mayabunder offers a unique and memorable experience. Join us as we explore the top attractions that make Mayabunder a must-visit destination.",
         sections: [
             {

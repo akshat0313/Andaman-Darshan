@@ -6,6 +6,10 @@ import { useNavigate } from "react-router-dom";
 import first from '../../Assets/1.jpg';
 import second from '../../Assets/2.jpg';
 import third from '../../Assets/3.jpg';
+import ant from './ANT.jpg';
+import aant from './aant.jpg';
+import ant2 from './ANT2.jpg';
+import ant3 from './ANT3.jpg';
 import Amenities from "../Amenities/Amenities";
 import FooterNew from "../Footer/FooterNew";
 import Gallery from "../Gallery/Gallery";
@@ -42,7 +46,7 @@ function Home() {
                 <Carousel.Item>
                   <img
                     className="d-block w-100 home-im"
-                    src={first}
+                    src={aant}
                     alt="First slide"
                   />
                   <div className="Carousel-caption">
@@ -53,7 +57,7 @@ function Home() {
                 <Carousel.Item>
                   <img
                     className="d-block w-100 home-im"
-                    src={second}
+                    src={ant2}
                     alt="Second slide"
                   />
                   <div className="Carousel-caption">
@@ -64,7 +68,7 @@ function Home() {
                 <Carousel.Item>
                   <img
                     className="d-block w-100 home-im"
-                    src={third}
+                    src={ant3}
                     alt="Third slide"
                   />
                   <div className="Carousel-caption">

@@ -192,14 +192,14 @@ function BookingForm() {
           <div className="info-container">
             <div className="info-block" data-aos="fade-up">
               <h2>Our Address</h2>
-              <p>1234 Travel Road</p>
-              <p>City, State, 56789</p>
-              <p>Country</p>
+            <div>Near Dollygaunge Post Office, Dollygaunge</div>
+            <div>Port Blair, S Andaman, India</div>
+            <div>Pin - 744103</div>
             </div>
             <div className="info-block" data-aos="fade-up">
               <h2>Contact Information</h2>
-              <p>Phone: (123) 456-7890</p>
-              <p>Email: contact@travelagency.com</p>
+              <p>Phone: 9734476497</p>
+              <p>Email: andamantdarshan@gmail.com</p>
               <p>Working Hours: Mon - Fri, 9 AM - 6 PM</p>
             </div>
           </div>
