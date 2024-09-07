@@ -1,7 +1,7 @@
 // destinationsData.js
 import jail from '../../Assets/jail.jpg';
 import port from '../../Assets/port1.jpg';
-import ross from '../../Assets/RossIsland1.jpg';
+import ross from './ross.jpg';
 import PBAmuseum from "./PBAmuseum.jpg";
 import PBCove from "./PBCove.jpg";
 import PBMarrietPark from "./PBMarrietPark.jpg";
@@ -9,7 +9,7 @@ import PBMuseum from "./PBMuseum.jpg";
 import PBPark from "./PBPark.jpg";
 import PBtapu from "./PBtapu.jpg";
 import Havelock from "./Havelock.jpg";
-import HavelockElephant from "./HavelockElephant.jpg";
+import HavelockElephant from '../Activity/elephant.jpg';
 import HavelockGovind from "./HavelockGovind.jpg";
 import HavelockKala from "./HavelockKala.jpg";
 import HavelockKayaking from "./HavelockKayaking.jpg";
@@ -166,13 +166,13 @@ const destinations = {
               HavelockKayaking
             ]
           },
-          {
-            title: "Trekking to Japanese Hill",
-            content: "For those who enjoy hiking, a trek to Japanese Hill is a must. The trail offers panoramic views of the island’s lush forests and the azure sea.",
-            images: [
-              HavelockTrekking
-            ]
-          }
+          // {
+          //   title: "Trekking to Japanese Hill",
+          //   content: "For those who enjoy hiking, a trek to Japanese Hill is a must. The trail offers panoramic views of the island’s lush forests and the azure sea.",
+          //   images: [
+          //     HavelockTrekking
+          //   ]
+          // }
         ]
       },
       place3:{
@@ -356,13 +356,6 @@ const destinations = {
                 ]
             },
             {
-                title: "Ray Hill",
-                content: "Ray Hill is a scenic viewpoint that offers panoramic views of Mayabunder town and its surrounding landscapes. The hilltop is perfect for photography enthusiasts, offering stunning vistas of the sea, mangroves, and nearby islands. Sunrise and sunset views from Ray Hill are particularly spectacular, making it a popular spot for visitors.",
-                images: [
-                    MayabunderRay
-                ]
-            },
-            {
                 title: "Dhaninallah Beach",
                 content: "Dhaninallah Beach is a secluded and serene beach located near Mayabunder. The beach is known for its natural beauty, with soft sands and calm waters ideal for swimming and relaxation. The peaceful ambiance and scenic surroundings make it a perfect spot for a quiet retreat.",
                 images: [
@@ -397,13 +390,13 @@ const destinations = {
                     DiglipurSaddle
                 ]
             },
-            {
-                title: "Alfred Caves",
-                content: "Alfred Caves are limestone caves known for their unique formations and underground streams. The caves are a natural wonder, with stalactites and stalagmites that create intricate patterns and formations. Exploring the caves is an exciting adventure, offering insights into the island's geological history and natural beauty.",
-                images: [
-                    DiglipurAlfred
-                ]
-            },
+            // {
+            //     title: "Alfred Caves",
+            //     content: "Alfred Caves are limestone caves known for their unique formations and underground streams. The caves are a natural wonder, with stalactites and stalagmites that create intricate patterns and formations. Exploring the caves is an exciting adventure, offering insights into the island's geological history and natural beauty.",
+            //     images: [
+            //         DiglipurAlfred
+            //     ]
+            // },
             {
                 title: "Kalipur Beach and Turtle Nesting Grounds",
                 content: "Kalipur Beach is famous for its black sands and is a popular nesting ground for turtles. Visitors can witness the nesting and hatching of turtles, especially during the nesting season from December to February. The beach's serene environment and natural beauty make it a must-visit spot for nature enthusiasts and photographers alike.",
@@ -411,13 +404,13 @@ const destinations = {
                     DiglipurKalipur
                 ]
             },
-            {
-                title: "Pathi Level Beach",
-                content: "Pathi Level Beach is a secluded and pristine beach located near Diglipur. The beach is known for its soft sands, clear blue waters, and tranquil ambiance, making it an ideal spot for relaxation and picnics. The surrounding area is perfect for nature walks and enjoying the scenic beauty of the Andaman Islands.",
-                images: [
-                    DiglipurPathi
-                ]
-            },
+            // {
+            //     title: "Pathi Level Beach",
+            //     content: "Pathi Level Beach is a secluded and pristine beach located near Diglipur. The beach is known for its soft sands, clear blue waters, and tranquil ambiance, making it an ideal spot for relaxation and picnics. The surrounding area is perfect for nature walks and enjoying the scenic beauty of the Andaman Islands.",
+            //     images: [
+            //         DiglipurPathi
+            //     ]
+            // },
             {
                 title: "Mud Volcano at Shyam Nagar",
                 content: "Diglipur is home to several mud volcanoes, including the one at Shyam Nagar. The mud volcano is a natural wonder where mud and gases are expelled from the earth's surface, creating a bubbling and gurgling spectacle. Visitors can observe this unique phenomenon up close, making it a fascinating and educational experience.",

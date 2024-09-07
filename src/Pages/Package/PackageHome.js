@@ -7,11 +7,12 @@ import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import './PackageHome.css';
+import { NavLink } from 'react-router-dom';
 
 // Import images for each package if needed
-import FamilyPackageImage from '../../Assets/11.jpg';
-import GroupPackageImage from '../../Assets/2.jpg';
-import HoneymoonPackageImage from '../../Assets/7.jpg';
+import FamilyPackageImage from './familyM.jpg';
+import GroupPackageImage from './groupM.jpg';
+import HoneymoonPackageImage from './honeymoonM.jpg';
 
 const PackageHome = () => {
   return (
@@ -34,25 +35,31 @@ const PackageHome = () => {
         className="mySwiper"
       >
         <SwiperSlide>
+          <NavLink to="/packages/package1">
           <div className="package-item">
             <img src={FamilyPackageImage} alt="Family Package" />
             <h3>Family Package</h3>
-            <p>Description of the Family Package goes here...</p>
+            {/* <p>Description of the Family Package goes here...</p> */}
           </div>
+          </NavLink>
         </SwiperSlide>
         <SwiperSlide>
+        <NavLink to="/packages/package2">
           <div className="package-item">
             <img src={HoneymoonPackageImage} alt="Honeymoon Package" />
             <h3>Honeymoon Package</h3>
-            <p>Description of the Honeymoon Package goes here...</p>
+            {/* <p>Description of the Honeymoon Package goes here...</p> */}
           </div>
+          </NavLink>
         </SwiperSlide>
         <SwiperSlide>
+        <NavLink to="/packages/package2">
           <div className="package-item">
             <img src={GroupPackageImage} alt="Group Package" />
             <h3>Group Package</h3>
-            <p>Description of the Group Package goes here...</p>
+            {/* <p>Description of the Group Package goes here...</p> */}
           </div>
+          </NavLink>
         </SwiperSlide>
       </Swiper>
     </div>

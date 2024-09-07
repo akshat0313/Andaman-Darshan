@@ -1,19 +1,19 @@
 import React from 'react';
 import ModalImage from 'react-modal-image';
 import './Gallery.css';
-import attraction1 from "./attraction1.jpg";
+import attraction1 from "./radhanagar.hpg.jpg";
 import attraction2 from "./attraction2.jpg";
 import attraction3 from "./attraction3.jpg";
-import attraction4 from "./attraction4.jpg";
+import attraction4 from './portb.jpg';
 import attraction5 from "./attraction5.jpg";
-import attraction6 from "./attraction6.jpg";
+import attraction6 from '../Home/h1.jpg';
 
 const Gallery = () => {
   const attractions = [
-    { url: attraction1, name: 'Trenquil' },
+    { url: attraction1, name: 'Radhanagar Beach' },
     { url: attraction2, name: 'Neil Island' },
     { url: attraction3, name: 'Viper Island' },
-    { url: attraction4, name: 'Marine Park' },
+    { url: attraction4, name: 'Port Blair' },
     { url: attraction5, name: 'Havelock' },
     { url: attraction6, name: 'Cellular Jail' },
     // Add more Cloudinary image URLs and names here

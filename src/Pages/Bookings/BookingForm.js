@@ -200,7 +200,7 @@ function BookingForm() {
               <h2>Contact Information</h2>
               <p>Phone: 9734476497</p>
               <p>Email: andamantdarshan@gmail.com</p>
-              <p>Working Hours: Mon - Fri, 9 AM - 6 PM</p>
+              <p>Working Hours: 24x7</p>
             </div>
           </div>
         </div>

@@ -221,7 +221,7 @@ const FerryDetails = () => {
       <HeroAbout text={ferry.name} img={ferry.Heroimg || 'default-hero-image-url'} />
       <div className="ferry-details">
         <h1>{ferry.name}</h1>
-        <img src={ferry.image || 'default-image-url'} alt={ferry.name} />
+        {ferry.name !== 'Nautika' && <img src={ferry.image || 'default-image-url'} alt={ferry.name} />}
         <p>{ferry.description}</p>
         
         <h2>Timings</h2>
@@ -248,7 +248,7 @@ const FerryDetails = () => {
           </tbody>
         </table>
 
-        {ferry.fares && (
+        {/* {ferry.fares && (
           <>
             <h2>Fare Details</h2>
             {ferry.fares.map((fare, index) => (
@@ -273,7 +273,7 @@ const FerryDetails = () => {
               </div>
             ))}
           </>
-        )}
+        )} */}
       </div>
       <FooterNew />
     </>

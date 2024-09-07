@@ -15,6 +15,8 @@ import Parasailing from "./parasailing.jpg";
 import sofa from "./sofa.jpg";
 import safari from "./safari.jpg";
 import dolphin from "./dolphin.jpg";
+import scuba from './scuba.jpg';
+import elephant from './elephant.jpg';
 import jet from "./jet.jpg";
 import glass from "./glass.jpg";
 import game from "./game.jpg";
@@ -22,7 +24,7 @@ import banana from "./banana.jpg";
 import speed from "./speed.jpg";
 import cinque from "./cinque.jpg";
 import PB from "../Destinations/PBtapu.jpg";
-import Havelock from "../Destinations/Havelock.jpg";
+import Havelock from '../Home/h2.jpg';
 import Neil from "../Destinations/Neil.jpg";
 import snorkeling from "./snorkeling.jpg";
 import './Activities.css';
@@ -31,7 +33,7 @@ import './Activities.css';
 const activitiesData = [
   {
     title: 'Scuba Diving',
-    HeroImg: image,
+    HeroImg: scuba,
     description: 'Discover an Underwater Paradise...',
     topSpots: [
       {
@@ -251,7 +253,7 @@ const activitiesData = [
   topSpots: [
     {
       location: 'Elephant Beach, Havelock Island',
-      image: PB,
+      image: elephant,
       description: 'Known for its clear waters and rich marine life, Elephant Beach is a prime snorkeling spot where you can see a variety of corals and fish.'
     },
     {
