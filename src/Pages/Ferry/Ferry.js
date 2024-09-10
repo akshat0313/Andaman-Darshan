@@ -23,25 +23,25 @@ const ferryData = {
     Heroimg: first,
     image: nautika,
     timings: [
-      { from: "PB", to: "HL", departure: "07:30 AM", arrival: "09:00 PM" },
-      { from: "HL", to: "NL", departure: "09:30 PM", arrival: "10:15 PM" },
-      { from: "NL", to: "PB", departure: "10:45 AM", arrival: "12:00 PM" },
-      { from: "PB", to: "HL", departure: "12:45 AM", arrival: "02:15 PM" },
-      { from: "HL", to: "NL", departure: "03:15 PM", arrival: "04:00 PM" },
-      { from: "NL", to: "PB", departure: "04:15 AM", arrival: "05:30 PM" },
+      { from: "Port Blair", to: "Havelock", departure: "07:30 AM", arrival: "09:00 PM" },
+      { from: "Havelock", to: "Neil Island", departure: "09:30 PM", arrival: "10:15 PM" },
+      { from: "Neil Island", to: "Port Blair", departure: "10:45 AM", arrival: "12:00 PM" },
+      { from: "Port Blair", to: "Havelock", departure: "12:45 AM", arrival: "02:15 PM" },
+      { from: "Havelock", to: "Neil Island", departure: "03:15 PM", arrival: "04:00 PM" },
+      { from: "Neil Island", to: "Port Blair", departure: "04:15 AM", arrival: "05:30 PM" },
     ],
   },
   'green-ocean-1': {
     name: "Green Ocean 1",
-    description: "Green Ocean is the largest and the only all weather private ferry operating between Port Blair and Havelock Island. This mighty vessel offers the most comfortable and enjoyable onboard experience. With unrestricted space onboard the guest enjoy the scenic beauty of the islands as it unfolds on the voyage to Havelock Island. Onboard the ship, guest can stroll to its unique open deck cafeteria with best music and dance arena to relax and unwind in open air.",
+    description: "Green Ocean is the largest and the oNeil Islandy all weather private ferry operating between Port Blair and Havelock Island. This mighty vessel offers the most comfortable and enjoyable onboard experience. With unrestricted space onboard the guest enjoy the scenic beauty of the islands as it unfolds on the voyage to Havelock Island. Onboard the ship, guest can stroll to its unique open deck cafeteria with best music and dance arena to relax and unwind in open air.",
     Heroimg: first,
     image: go2,
     timings: [
-      { from: "PB", to: "HL", departure: "06:30 AM", arrival: "08:35 PM" },
-      { from: "HL", to: "NL", departure: "09:15 PM", arrival: "10:30 PM" },
-      { from: "NL", to: "PB", departure: "11:00 AM", arrival: "12:45 PM" },
-      { from: "PB", to: "HL", departure: "13:30 AM", arrival: "15:30 PM" },
-      { from: "HL", to: "PB", departure: "15:45 PM", arrival: "18:00 PM" },
+      { from: "Port Blair", to: "Havelock", departure: "06:30 AM", arrival: "08:35 PM" },
+      { from: "Havelock", to: "Neil Island", departure: "09:15 PM", arrival: "10:30 PM" },
+      { from: "Neil Island", to: "Port Blair", departure: "11:00 AM", arrival: "12:45 PM" },
+      { from: "Port Blair", to: "Havelock", departure: "13:30 AM", arrival: "15:30 PM" },
+      { from: "Havelock", to: "Port Blair", departure: "15:45 PM", arrival: "18:00 PM" },
     ],
     fares: [
       { route: "Port Blair to Havelock Island", details: [
@@ -62,11 +62,12 @@ const ferryData = {
     Heroimg: scnd,
     image: makruzz,
     timings: [
-      { from: "Port Blair", to: "Havelock Island", departure: "08:00 AM", arrival: "09:30 AM", duration: "01 Hour 30 Minutes" },
-      { from: "Port Blair", to: "Havelock Island", departure: "01:45 PM", arrival: "03:15 PM", duration: "01 Hour 30 Minutes" },
-      { from: "Havelock Island", to: "Port Blair", departure: "03:45 PM", arrival: "05:15 PM", duration: "01 Hour 30 Minutes" },
-      { from: "Havelock Island", to: "Neil Island", departure: "10:00 AM", arrival: "11:15 AM", duration: "01 Hour 15 Minutes" },
-      { from: "Neil Island", to: "Port Blair", departure: "11:30 AM", arrival: "12:30 PM", duration: "01 Hour" },
+      { from: "Port Blair", to: "Havelock", departure: "06:00/08:00/08:30/11:30/14:00" },
+      { from: "Havelock", to: "Neil Island", departure: "10:00/10:30/14:00" },
+      { from: "Neil Island", to: "Port Blair", departure: "11:20/12:00/16:00" },
+      { from: "Havelock", to: "Port Blair", departure: "08:00/12:00/16:00" },
+      { from: "Port Blair", to: "Neil Island", departure: "09:00" },
+      { from: "Neil Island", to: "Havelock", departure: "10:30" },
     ],
     fares: [
       { route: "Port Blair to Havelock Island", details: [
@@ -157,15 +158,15 @@ const ferryData = {
   // },
   'green-ocean-2': {
     name: "Green Ocean 2",
-    description: "Green Ocean is the largest and the only all weather private ferry operating between Port Blair and Havelock Island. This mighty vessel offers the most comfortable and enjoyable onboard experience. With unrestricted space onboard the guest enjoy the scenic beauty of the islands as it unfolds on the voyage to Havelock Island. Onboard the ship, guest can stroll to its unique open deck cafeteria with best music and dance arena to relax and unwind in open air.",
+    description: "Green Ocean is the largest and the oNeil Islandy all weather private ferry operating between Port Blair and Havelock Island. This mighty vessel offers the most comfortable and enjoyable onboard experience. With unrestricted space onboard the guest enjoy the scenic beauty of the islands as it unfolds on the voyage to Havelock Island. Onboard the ship, guest can stroll to its unique open deck cafeteria with best music and dance arena to relax and unwind in open air.",
     Heroimg: fifth,
     image: go1,
     timings: [
-      { from: "PB", to: "HL", departure: "07:00 AM", arrival: "09:00 PM" },
-      { from: "HL", to: "PB", departure: "09:30 PM", arrival: "11:30 PM" },
-      { from: "PB", to: "HL", departure: "11:45 AM", arrival: "13:45 PM" },
-      { from: "HL", to: "NL", departure: "14:15 AM", arrival: "15:30 PM" },
-      { from: "NL", to: "PB", departure: "15:45 PM", arrival: "18:00 PM" },
+      { from: "Port Blair", to: "Havelock", departure: "07:00 AM", arrival: "09:00 PM" },
+      { from: "Havelock", to: "Port Blair", departure: "09:30 PM", arrival: "11:30 PM" },
+      { from: "Port Blair", to: "Havelock", departure: "11:45 AM", arrival: "13:45 PM" },
+      { from: "Havelock", to: "Neil Island", departure: "14:15 AM", arrival: "15:30 PM" },
+      { from: "Neil Island", to: "Port Blair", departure: "15:45 PM", arrival: "18:00 PM" },
     ],
     fares: [
       { route: "Port Blair to Havelock Island", details: [
@@ -241,7 +242,7 @@ const FerryDetails = () => {
               <th>From</th>
               <th>To</th>
               <th>Departure</th>
-              <th>Arrival</th>
+              {ferry.name !== 'Makruzz' && <th>Arrival</th>}
               {/* <th>Duration</th> */}
             </tr>
           </thead>
@@ -251,7 +252,7 @@ const FerryDetails = () => {
                 <td>{time.from}</td>
                 <td>{time.to || 'N/A'}</td>
                 <td>{time.departure}</td>
-                <td>{time.arrival || 'N/A'}</td>
+                {ferry.name !== 'Makruzz' &&<td>{time.arrival || 'N/A'}</td>}
                 {/* <td>{time.duration || 'N/A'}</td> */}
               </tr>
             ))}
