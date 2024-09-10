@@ -123,12 +123,12 @@ const Navbar = () => {
                 {showDropdown.ferries && (
                   <ul className='dropdownNav'>
                     <li><NavLink to="/ferries/nautika" onClick={handleToggleNavbar}>Nautika</NavLink></li>
-                    <li><NavLink to="/ferries/mv-makruzz" onClick={handleToggleNavbar}>M V Makruzz</NavLink></li>
-                    <li><NavLink to="/ferries/makruzz-gold" onClick={handleToggleNavbar}>Makruzz Gold</NavLink></li>
-                    <li><NavLink to="/ferries/itt-majestic" onClick={handleToggleNavbar}>ITT Majestic</NavLink></li>
+                    <li><NavLink to="/ferries/makruzz" onClick={handleToggleNavbar}>Makruzz</NavLink></li>
+                    {/* <li><NavLink to="/ferries/makruzz-gold" onClick={handleToggleNavbar}>Makruzz Gold</NavLink></li>
+                    <li><NavLink to="/ferries/itt-majestic" onClick={handleToggleNavbar}>ITT Majestic</NavLink></li> */}
                     <li><NavLink to="/ferries/green-ocean-1" onClick={handleToggleNavbar}>Green Ocean 1</NavLink></li>
                     <li><NavLink to="/ferries/green-ocean-2" onClick={handleToggleNavbar}>Green Ocean 2</NavLink></li>
-                    <li><NavLink to="/ferries/government-ferries" onClick={handleToggleNavbar}>Government Ferries</NavLink></li>
+                    {/* <li><NavLink to="/ferries/government-ferries" onClick={handleToggleNavbar}>Government Ferries</NavLink></li> */}
                   </ul>
                 )}
               </li>

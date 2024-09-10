@@ -10,7 +10,7 @@ function FooterNew() {
         <div className="subscribe">
           <div className="footer-subscribe">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3907.8252369725333!2d92.7121!3d11.6358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa7807a37ffc8e241%3A0x20e901e2826f557d!2sAndaman%20Darshan%20Tours%20%26%20Travels!5e0!3m2!1sen!2sin!4v1722414559124!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4647.253806681037!2d92.70965497637775!3d11.633402538173446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3088943e8bbb551b%3A0x1015638fe2d50e42!2sDollygunj%2C%20Port%20Blair%2C%20Andaman%20and%20Nicobar%20Islands%20744103!5e0!3m2!1sen!2sin!4v1725870444000!5m2!1sen!2sin"
               width="600"
               height="450"
               style={{ border: 0 }}
