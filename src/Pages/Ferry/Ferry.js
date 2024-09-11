@@ -5,6 +5,10 @@ import scnd from '../../Assets/6.jpg';
 import third from '../../Assets/7.jpg';
 import fourth from '../../Assets/8.jpg';
 import fifth from '../../Assets/9.jpg';
+import nautikaIn from './nautikaInterior.jpg';
+import makruzIn from './MakruzzInterior.jpg';
+import gocean1 from './gocean1.jpg';
+import gocean2 from './gocean2.jpg';
 import FooterNew from '../Footer/FooterNew';
 import HeroAbout from '../Hero/Hero';
 import Navbar from '../Navbar/Navbar';
@@ -20,7 +24,7 @@ const ferryData = {
   nautika: {
     name: "Nautika",
     description: "Nautika is a high-speed ferry offering comfortable travel.",
-    Heroimg: first,
+    Heroimg: nautikaIn,
     image: nautika,
     timings: [
       { from: "Port Blair", to: "Havelock", departure: "07:30 AM", arrival: "09:00 PM" },
@@ -34,7 +38,7 @@ const ferryData = {
   'green-ocean-1': {
     name: "Green Ocean 1",
     description: "Green Ocean is the largest and the oNeil Islandy all weather private ferry operating between Port Blair and Havelock Island. This mighty vessel offers the most comfortable and enjoyable onboard experience. With unrestricted space onboard the guest enjoy the scenic beauty of the islands as it unfolds on the voyage to Havelock Island. Onboard the ship, guest can stroll to its unique open deck cafeteria with best music and dance arena to relax and unwind in open air.",
-    Heroimg: first,
+    Heroimg: gocean1,
     image: go2,
     timings: [
       { from: "Port Blair", to: "Havelock", departure: "06:30 AM", arrival: "08:35 PM" },
@@ -59,7 +63,7 @@ const ferryData = {
   'makruzz': {
     name: "Makruzz",
     description: "M.V. Makruzz is a Private high-speed Catamaran Passenger Ferry. Catamaran is a twin hull vessel and the advantage is that it offers high speed, better stability and more space. The craft is owned by MAK LOGISTICS Pvt. Ltd. The vessel has 2 decks with passenger capacity of 280. It presents three classes for its guests with 208 seats in Premium, 64 seats in Deluxe and 8 seats in Royal. For the comfort of the passengers, the vessel is fully air-conditioned.",
-    Heroimg: scnd,
+    Heroimg: makruzIn,
     image: makruzz,
     timings: [
       { from: "Port Blair", to: "Havelock", departure: "06:00/08:00/08:30/11:30/14:00" },
@@ -159,7 +163,7 @@ const ferryData = {
   'green-ocean-2': {
     name: "Green Ocean 2",
     description: "Green Ocean is the largest and the oNeil Islandy all weather private ferry operating between Port Blair and Havelock Island. This mighty vessel offers the most comfortable and enjoyable onboard experience. With unrestricted space onboard the guest enjoy the scenic beauty of the islands as it unfolds on the voyage to Havelock Island. Onboard the ship, guest can stroll to its unique open deck cafeteria with best music and dance arena to relax and unwind in open air.",
-    Heroimg: fifth,
+    Heroimg: gocean2,
     image: go1,
     timings: [
       { from: "Port Blair", to: "Havelock", departure: "07:00 AM", arrival: "09:00 PM" },
