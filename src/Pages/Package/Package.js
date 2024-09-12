@@ -71,7 +71,8 @@ const Package = () => {
           <div className="days-nights-box" key={dn.id}>
             <img src={dn.image} alt={dn.label} className="package-image" />
             <h2>{dn.label}</h2>
-            <Link to={`/packages/${packageId}/${dn.id}`} className="view-more-button">View More</Link>
+            {dn.id !== "3N4D" && <Link to={`/packages/${packageId}/${dn.id}`} className="view-more-button">View More</Link>}
+            {dn.id === "3N4D" && <Link to={`/contact`} className="view-more-button">View More</Link>}
           </div>
         ))}
       </div>

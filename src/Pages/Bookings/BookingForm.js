@@ -105,8 +105,8 @@ function BookingForm() {
       <ToastContainer /> {/* Ensure ToastContainer is here */}
       <Navbar />
       <HeroAbout img="https://res.cloudinary.com/demo/image/upload/flower.jpg" text="Contact Us" />
-      <div className="contact" style={{ display: "flex", justifyContent: "space-between", margin: "4rem" }}>
-        <div>
+      <div className="contact" style={{ display: "flex", justifyContent: "center", margin: "4rem" }}>
+        {/* <div>
           <h1 style={{ fontSize: "2.5em", marginBottom: "30px", textAlign: "initial", marginLeft: "2rem" }}>Contact Us</h1>
           <div className="booking-form-container" data-aos="fade-right">
             <form onSubmit={handleSubmit} className="booking-form" noValidate>
@@ -186,15 +186,15 @@ function BookingForm() {
               <button type="submit" className="submit-btn">Submit</button>
             </form>
           </div>
-        </div>
+        </div> */}
         <div className="know">
           <h1 style={{ fontSize: "2.5em", marginBottom: "30px", textAlign: "initial", marginLeft: "2rem" }}>Get To Know Us</h1>
           <div className="info-container">
             <div className="info-block" data-aos="fade-up">
               <h2>Our Address</h2>
-            <div>Near Dollygaunge Post Office, Dollygaunge</div>
-            <div>Port Blair, S Andaman, India</div>
-            <div>Pin - 744103</div>
+              <div>Near Dollygaunge Post Office, Dollygaunge</div>
+              <div>Port Blair, S Andaman, India</div>
+              <div>Pin - 744103</div>
             </div>
             <div className="info-block" data-aos="fade-up">
               <h2>Contact Information</h2>
@@ -202,6 +202,12 @@ function BookingForm() {
               <p>Email: andamantdarshan@gmail.com</p>
               <p>Working Hours: 24x7</p>
             </div>
+          </div>
+          {/* Add Email Button */}
+          <div className="email-button" style={{ marginTop: '20px', textAlign: 'center' }}>
+            <a href="mailto:andamantdarshan@gmail.com" className="mail-button" style={{ padding: '10px 20px', background: '#007BFF', color: 'white', textDecoration: 'none', borderRadius: '5px' }}>
+              Contact Us
+            </a>
           </div>
         </div>
       </div>
@@ -214,3 +220,6 @@ function BookingForm() {
 }
 
 export default BookingForm;
+
+
+

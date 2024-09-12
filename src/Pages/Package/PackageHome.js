@@ -53,7 +53,7 @@ const PackageHome = () => {
           </NavLink>
         </SwiperSlide>
         <SwiperSlide>
-        <NavLink to="/packages/package2">
+        <NavLink to="/packages/package1">
           <div className="package-item">
             <img src={GroupPackageImage} alt="Group Package" />
             <h3>Group Package</h3>
