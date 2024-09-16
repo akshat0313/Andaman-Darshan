@@ -12,7 +12,7 @@ import gocean2 from './gocean2.jpg';
 import FooterNew from '../Footer/FooterNew';
 import HeroAbout from '../Hero/Hero';
 import Navbar from '../Navbar/Navbar';
-import nautika from './nautika.jpg';
+import nautika  from './nautika.jpg';
 import go1 from './go1.jpg';
 import go2 from './go2.jpg';
 import gold from './gold.jpg';
@@ -236,7 +236,7 @@ const FerryDetails = () => {
       <HeroAbout text={ferry.name} img={ferry.Heroimg || 'default-hero-image-url'} />
       <div className="ferry-details">
         <h1>{ferry.name}</h1>
-        {ferry.name !== 'Nautika' && <img src={ferry.image || 'default-image-url'} alt={ferry.name} />}
+        { <img src={ferry.image || 'default-image-url'} alt={ferry.name} />}
         <p>{ferry.description}</p>
         {ferry.img && <img src={ferry.image || 'default-image-url'} alt={ferry.name} />}
         <h2>Timings</h2>
