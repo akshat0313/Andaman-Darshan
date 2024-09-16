@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../Assets/logo.jpg';
+import address from './andaman_adress.jpeg';
 import './FooterNew.css';
 
 function FooterNew() {
@@ -20,7 +21,7 @@ function FooterNew() {
               title="Google Maps"
             ></iframe>
           </div>
-          <div className="footer-social-media">
+          {/* <div className="footer-social-media">
             <a
               href="https://www.facebook.com"
               target="_blank"
@@ -57,13 +58,14 @@ function FooterNew() {
             >
               <i className="fab fa-linkedin-in"></i>
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="footer-links">
-          <div className="footer-column">
+        <img className='logo-img' src={address} alt="Logo" />
+          {/* <div className="footer-column">
           <div className="logo">
-              <img className='logo-img' src={logo} alt="Logo" />
+              
             <div className="Nav-Name">Andman Darshan</div>          
           </div>
             <div>Discover the breathtaking beauty of the Andaman & Nicobar Islands, a tropical paradise offering a perfect blend of nature, adventure, and culture. Plan your journey to explore pristine beaches, coral reefs, and the rich history of these magnificent islands</div>
@@ -74,7 +76,7 @@ function FooterNew() {
             <div>Near Dollygaunge Post Office, Dollygaunge</div>
             <div>Port Blair, S Andaman, India</div>
             <div>Pin - 744103</div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="footer-rights">

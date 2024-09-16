@@ -7,6 +7,7 @@ import FooterNew from "../Footer/FooterNew";
 import HeroAbout from '../Hero/Hero';
 import Navbar from "../Navbar/Navbar";
 import Recognition from "../Recognition/Recognition";
+import address from '../Footer/andaman_adress.jpeg';
 import './BookingForm.css';
 
 function BookingForm() {
@@ -189,19 +190,21 @@ function BookingForm() {
         </div> */}
         <div className="know">
           <h1 style={{ fontSize: "2.5em", marginBottom: "30px", textAlign: "initial", marginLeft: "2rem" }}>Get To Know Us</h1>
-          <div className="info-container">
-            <div className="info-block" data-aos="fade-up">
-              <h2>Our Address</h2>
-              <div>Near Dollygaunge Post Office, Dollygaunge</div>
-              <div>Port Blair, S Andaman, India</div>
-              <div>Pin - 744103</div>
-            </div>
-            <div className="info-block" data-aos="fade-up">
+          <img className='logo-img-address' src={address} alt="Logo" />
+          <div className="info-block" data-aos="fade-up">
               <h2>Contact Information</h2>
               <p>Phone: 9734476497</p>
               <p>Email: andamantdarshan@gmail.com</p>
               <p>Working Hours: 24x7</p>
             </div>
+          <div className="info-container">
+            {/* <div className="info-block" data-aos="fade-up">
+              <h2>Our Address</h2>
+              <div>Near Dollygaunge Post Office, Dollygaunge</div>
+              <div>Port Blair, S Andaman, India</div>
+              <div>Pin - 744103</div>
+            </div> */}
+            
           </div>
           {/* Add Email Button */}
           <div className="email-button" style={{ marginTop: '20px', textAlign: 'center' }}>
