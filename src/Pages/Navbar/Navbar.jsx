@@ -39,7 +39,7 @@ const Navbar = () => {
             <NavLink exact to="/">
               <img className='logo-img' src={logo} alt="Logo" />
             </NavLink>
-            <div className="Nav-Name">Andman Darshan Travels</div>          
+            <div className="Nav-Name">Andaman Darshan Travels</div>          
           </div>
           <div className="menu-icon" onClick={handleToggleNavbar}>
             <BsFillHddStackFill />
